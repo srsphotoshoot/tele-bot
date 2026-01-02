@@ -31,7 +31,7 @@ from dotenv import load_dotenv
 import pandas as pd
 from datetime import datetime, timedelta
 import tempfile
-import google.generativeai as genai
+from google import genai
 from tabulate import tabulate
 import hashlib
 import base64
