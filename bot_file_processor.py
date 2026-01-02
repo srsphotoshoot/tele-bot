@@ -14,6 +14,8 @@ os.environ["HTTPX_FORCE_IPV4"] = "true"
 os.environ["NO_PROXY"] = "api.telegram.org"
 # Set DNS timeout
 socket.setdefaulttimeout(30)
+print("GEMINI_API_KEY loaded:", bool(os.getenv("GEMINI_API_KEY")))
+print("TELEGRAM_BOT_TOKEN loaded:", bool(os.getenv("TELEGRAM_BOT_TOKEN")))
 
 # Configure httpx with better defaults
 httpx._config.DEFAULT_CONNECT_TIMEOUT = 60
