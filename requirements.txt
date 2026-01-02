@@ -1,7 +1,20 @@
+# Core runtime
+python-telegram-bot==20.7
+httpx>=0.26.0
+
+# Database
 duckdb==1.2.0
 pandas>=2.0.0
+
+# Excel support
 openpyxl>=3.1.0
-python-telegram-bot==20.7
+
+# Images
+Pillow>=10.0.0
+
+# Gemini AI (stable, works on Railway)
 google-generativeai
+
+# Utilities
 python-dotenv
 tabulate
