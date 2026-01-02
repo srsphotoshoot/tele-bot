@@ -4,3 +4,4 @@ openpyxl>=3.1.0
 python-telegram-bot==20.7
 google-generativeai
 python-dotenv
+tabulate
